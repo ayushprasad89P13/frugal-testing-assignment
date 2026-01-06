@@ -1,0 +1,60 @@
+[2026-01-05 20:12:25] Error: Message: element not interactable
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x8f12d3
+	0x8f1314
+	0x6de52b
+	0x72a5c8
+	0x71f1c8
+	0x74b4ec
+	0x71ec34
+	0x74b6a4
+	0x76db13
+	0x74b2e6
+	0x71d321
+	0x71e1d4
+	0xb45314
+	0xb408cb
+	0xb5d1aa
+	0x90b1d8
+	0x9131dd
+	0x8f95d8
+	0x8f9799
+	0x8e3b28
+	0x763c5d49
+	0x7749d5db
+	0x7749d561
+
+[2026-01-05 20:13:26] Flow A completed
+[2026-01-05 20:13:27] Error: Message: element not interactable
+  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x8f12d3
+	0x8f1314
+	0x6de52b
+	0x72a5c8
+	0x71f1c8
+	0x74b4ec
+	0x71ec34
+	0x74b6a4
+	0x76db13
+	0x74b2e6
+	0x71d321
+	0x71e1d4
+	0xb45314
+	0xb408cb
+	0xb5d1aa
+	0x90b1d8
+	0x9131dd
+	0x8f95d8
+	0x8f9799
+	0x8e3b28
+	0x763c5d49
+	0x7749d5db
+	0x7749d561
+
+[2026-01-05 20:14:00] Flow A completed
+[2026-01-05 20:14:05] Flow B completed
+[2026-01-05 20:14:07] Flow C completed

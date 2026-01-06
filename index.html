@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Registration | Frugal Testing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="background-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Create Account</h1>
+            <p>Join us for an exclusive experience.</p>
+        </header>
+
+        <form id="registrationForm" novalidate>
+            <section class="form-section">
+                <h2>Personal Information</h2>
+                <div class="input-group-row">
+                    <div class="input-group">
+                        <label for="firstName">First Name <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                        </div>
+                        <span class="error-message" id="firstNameError"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="lastName">Last Name <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-regular fa-user"></i>
+                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                        </div>
+                        <span class="error-message" id="lastNameError"></span>
+                    </div>
+                </div>
+
+                <div class="input-group-row">
+                    <div class="input-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+                        </div>
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="phone">Phone Number <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900" required>
+                        </div>
+                        <span class="error-message" id="phoneError"></span>
+                    </div>
+                </div>
+
+                <div class="input-group-row">
+                    <div class="input-group">
+                        <label for="age">Age</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <input type="number" id="age" name="age" min="1" max="120" placeholder="25">
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Gender <span class="required">*</span></label>
+                        <div class="checkbox-group required-group" id="genderGroup">
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="Male" required>
+                                <span class="radio-custom"></span> Male
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="Female" required>
+                                <span class="radio-custom"></span> Female
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="gender" value="Other" required>
+                                <span class="radio-custom"></span> Other
+                            </label>
+                        </div>
+                        <span class="error-message" id="genderError"></span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>Address Details</h2>
+                <div class="input-group">
+                    <label for="address">Address</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <input type="text" id="address" name="address" placeholder="123 Main St, Apt 4B">
+                    </div>
+                </div>
+
+                <div class="input-group-row3">
+                    <div class="input-group">
+                        <label for="country">Country</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-earth-americas"></i>
+                            <select id="country" name="country">
+                                <option value="">Select Country</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="state">State</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-map"></i>
+                            <select id="state" name="state" disabled>
+                                <option value="">Select State</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="city">City</label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-city"></i>
+                            <select id="city" name="city" disabled>
+                                <option value="">Select City</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>Security</h2>
+                <div class="input-group-row">
+                    <div class="input-group">
+                        <label for="password">Password <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="password" name="password" placeholder="••••••••" required>
+                            <i class="fa-solid fa-eye toggle-password" data-target="password"></i>
+                        </div>
+                        <div class="strength-meter">
+                            <div class="strength-bar" id="strengthBar"></div>
+                            <span class="strength-text" id="strengthText"></span>
+                        </div>
+                        <span class="error-message" id="passwordError"></span>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="confirmPassword">Confirm Password <span class="required">*</span></label>
+                        <div class="input-wrapper">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="••••••••"
+                                required>
+                            <i class="fa-solid fa-eye toggle-password" data-target="confirmPassword"></i>
+                        </div>
+                        <span class="error-message" id="confirmPasswordError"></span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="input-group terms-group">
+                <label class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <span class="checkmark"></span>
+                    I agree to the <a href="#">Terms & Conditions</a>
+                </label>
+                <span class="error-message" id="termsError"></span>
+            </div>
+
+            <button type="submit" id="submitBtn" disabled>Create Account</button>
+
+            <div id="formFeedback"></div>
+
+        </form>
+    </div>
+
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <div class="success-icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h2>Registration Successful!</h2>
+            <p>Your profile has been submitted successfully.</p>
+            <button id="closeModal">Continue</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
