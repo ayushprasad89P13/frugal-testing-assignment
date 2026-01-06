@@ -59,7 +59,7 @@ A modern, responsive registration form with client-side validations and complete
     python automation_script.py
     ```
 
-## 📊 Test Execution & Results
+##  Test Execution & Results
 
 The automated test script (`automation_script.py`) executes three comprehensive flows as per the assignment requirements:
 
@@ -74,14 +74,30 @@ The automated test script (`automation_script.py`) executes three comprehensive 
 - **Screenshots:** See the [Screenshots](#screenshots) section below.
 - **Screen Recording:** **[LINK TO YOUR GOOGLE DRIVE/CLOUD VIDEO HERE]** - A full recording of the automated test execution.
 
-## 📁 Submission Deliverables
+##  Submission Deliverables
 This repository contains all required files for the assignment:
 - Frontend Code: `index.html`, `style.css`, `script.js`
 - Automation Test Suite: `automation_script.py`, `requirements.txt`
 - Test Evidence: `test_logs.txt`, `success-state.png`, `error-state.png`, `full-page-error.png`
 - Screen Recording: *(Link provided above)*
 
-## 📸 Screenshots
+##  Screenshots
 | Error State | Success State | Full Page |
 |-------------|---------------|-----------|
 | ![Error](error-state.png) | ![Success](success-state.png) | ![Full](full-page-error.png) |
+
+##  Video Demonstration
+[Click here to watch the video demonstration]([https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1-lS5zp7mbmdlit4qs1jwOTVP2Fg8ZY-2/view?usp=sharing))
+
+*The video demonstrates:*
+1. Opening the registration form in browser
+2. Testing various validations (missing fields, wrong email, etc.)
+3. Successful form submission with modal
+4. Running automation tests via command line
+5. Reviewing generated screenshots and logs
+
+
+
+
+
+
