@@ -87,7 +87,7 @@ This repository contains all required files for the assignment:
 | ![Error](error-state.png) | ![Success](success-state.png) | ![Full](full-page-error.png) |
 
 ##  Video Demonstration
-[Click here to watch the video demonstration]([https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing](https://drive.google.com/file/d/1-lS5zp7mbmdlit4qs1jwOTVP2Fg8ZY-2/view?usp=sharing))
+[Click here to watch the video demonstration](https://drive.google.com/file/d/1-lS5zp7mbmdlit4qs1jwOTVP2Fg8ZY-2/view?usp=drive_link)
 
 *The video demonstrates:*
 1. Opening the registration form in browser
