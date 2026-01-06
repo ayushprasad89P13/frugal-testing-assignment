@@ -1,10 +1,12 @@
-# 🚀 Intelligent Registration System
+#  Intelligent Registration System | Frugal Testing SE Assignment
 
-A modern, responsive registration form with client-side validations and complete Selenium automation testing.
+GitHub Repository:(https://github.com/shivam89p13-star/frugal-testing-assignment.git)
+
+A modern, responsive registration form with client-side validations and complete Selenium automation testing, developed for the Frugal Testing Software Engineer assignment (Section A, Option 2).
 
 ![Registration Form](success-state.png)
 
-## 📋 Features
+##  Features
 
 ###  Form Features
 - **Complete Registration Form**: 12+ fields including First Name, Last Name, Email, Phone, Age, Gender, Address, Country/State/City, Password, Confirm Password, and Terms & Conditions
@@ -33,6 +35,51 @@ A modern, responsive registration form with client-side validations and complete
 - **Cross-browser Ready**: Easily configurable for Chrome, Firefox, or Edge browsers
 - **Error Handling**: Comprehensive exception handling with detailed error messages
 - **Headless Mode Support**: Can run tests in background without opening browser window
+
+##  Quick Start
+
+### Prerequisites
+- Python 3.7+
+- Google Chrome browser
+
+### Installation & Running
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/shivam89p13-star/frugal-testing-assignment.git
+    cd frugal-testing-assignment
+    ```
+2.  **Install Python dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **View the Registration Form:**
+    Open the `index.html` file in your web browser.
+4.  **Run the Automation Tests:**
+    ```bash
+    python automation_script.py
+    ```
+
+## 📊 Test Execution & Results
+
+The automated test script (`automation_script.py`) executes three comprehensive flows as per the assignment requirements:
+
+| Test Flow | Objective | Result |
+| :--- | :--- | :--- |
+| **Flow A** | Negative Scenario - Missing Last Name | ✅ PASS - Submit button correctly disabled, error message displayed. |
+| **Flow B** | Positive Scenario - Valid Form Submission | ✅ PASS - Form submits, success modal appears, fields reset. |
+| **Flow C** | Logic Validation - Dropdowns, Password Strength | ✅ PASS - Dynamic updates and validation work as expected. |
+
+**Generated Artifacts:**
+- **Logs:** Detailed execution log: [`test_logs.txt`](test_logs.txt)
+- **Screenshots:** See the [Screenshots](#screenshots) section below.
+- **Screen Recording:** **[LINK TO YOUR GOOGLE DRIVE/CLOUD VIDEO HERE]** - A full recording of the automated test execution.
+
+## 📁 Submission Deliverables
+This repository contains all required files for the assignment:
+- Frontend Code: `index.html`, `style.css`, `script.js`
+- Automation Test Suite: `automation_script.py`, `requirements.txt`
+- Test Evidence: `test_logs.txt`, `success-state.png`, `error-state.png`, `full-page-error.png`
+- Screen Recording: *(Link provided above)*
 
 ## 📸 Screenshots
 | Error State | Success State | Full Page |
