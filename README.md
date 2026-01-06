@@ -1,6 +1,6 @@
 #  Intelligent Registration System | Frugal Testing SE Assignment
 
-GitHub Repository:(https://github.com/shivam89p13-star/frugal-testing-assignment.git)
+GitHub Repository: (https://github.com/ayushprasad89P13/frugal-testing-assignment.git)
 
 A modern, responsive registration form with client-side validations and complete Selenium automation testing, developed for the Frugal Testing Software Engineer assignment (Section A, Option 2).
 
@@ -45,7 +45,7 @@ A modern, responsive registration form with client-side validations and complete
 ### Installation & Running
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/shivam89p13-star/frugal-testing-assignment.git
+    git clone https://github.com/ayushprasad89P13/frugal-testing-assignment.git
     cd frugal-testing-assignment
     ```
 2.  **Install Python dependencies:**
